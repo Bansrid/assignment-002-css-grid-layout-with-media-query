@@ -1,0 +1,58 @@
+header{
+    font-style: italic;
+    text-align: center;
+}
+.container{
+    
+}
+h2{
+
+}
+p{
+
+}
+p1{
+
+}
+h3{
+
+}
+p{
+
+}
+p1{
+
+}
+h4{
+
+}
+p{
+
+}
+p1{
+
+}
+h5{
+
+}
+p{
+
+}
+p1{
+
+}
+#politics{
+    background-color: rgb(199, 199, 25);
+}
+#technology{
+    background-color: skyblue;
+}
+#locals{
+    background-color: rgb(33, 188, 249);
+}
+#opinion{
+    background-color: rgb(133, 184, 167);
+}
+#sports{
+    background-color: rgb(147, 73, 147);
+}
