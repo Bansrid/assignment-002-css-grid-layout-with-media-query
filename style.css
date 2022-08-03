@@ -1,54 +1,65 @@
 header{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container{
     display: grid;
     height: 100vh;
-    border-top: 2px solid black;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr;
-    grid-template-areas: 
-        "h1 h1 h1"
-        "h2 h2 h2"
-        "h3 h3 h3"
-        "h4 h4 h4";
+    grid-template-columns: 1fr,1fr, 1fr;
+    grid-template-rows:0.2fr 1.5fr;
+   border-top: 2px solid black;
+   grid-template-areas:
+   "a1 a1 a1"
+   "a2 a2 a2"
+   "a3 a3 a3"
+   "a4 a4 a4" 
+    ;
 }
-#h1{
-    border-right:2px solid black ;
+  #a2{
+      border-right: 2px solid black;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+  }
+#a1{
+    border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-#h2{
-    border-right:2px solid black ;
-    border-left: 2px solid black;
-    border-bottom:2px solid black ;
-}
-#h3{
-    border-right:2px solid black ;
-    border-bottom:2px solid black ;
-}
-#h4{
+#a4{
     border-top: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
 }
-#politics{
-    background-color: rgb(199, 199, 25);
+#a3{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+    
+img{
+    width: 500px;
+    height: 300px;
+}
+
+
+.end{
+
+}
+#Politics{
+    background-color:rgb(199, 199, 25);
     height: 5vh;
 }
-#technology{
-    background-color: skyblue;
+#Technology{
+    background-color:skyblue;
     height: 5vh;
 }
-#locals{
+#Locals{
     background-color: rgb(33, 188, 249);
-    height: 5vh;
+    height:5vh;
 }
-#opinion{
+#Opinion{
     background-color: rgb(133, 184, 167);
     height: 5vh;
 }
-#sports{
-    background-color: rgb(147, 73, 147);
+#Sports{
+    background-color:rgb(147, 73, 147);
     height: 5vh;
 }
